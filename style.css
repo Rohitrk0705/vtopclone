@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.header{
+height: 60px;
+  background: linear-gradient(to right,rgba(36, 85,163),rgb(10, 98, 192));
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  margin-bottom: 15px;
+
+}
+
+.vtoplogo{
+  height: 60px;
+  padding-left:0;
+}
+.logo{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size:36px;
+}
+.logo1{
+  color:white;
+  padding-left:15px;
+  font-size:14px;
+  
+}
+.para{
+    text-align:center;
+    font-size: 14px;
+    margin-bottom:25px;
+    
+}
+.para h1{
+    color:rgb(19, 137, 222);
+    font-size: 28px;
+    margin-bottom:15PX;
+}
+
+.cards {
+  
+  display: flex;
+  justify-content: center;
+  gap:35px;
+  
+
+}
+.card {
+  width: 200px;
+  background-color: white;
+  padding: 25px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+ 
+  
+}
+.student {
+display: flex;
+height:95px;
+  width: 275px;
+  background-color: white;
+  padding: 25px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  align-content:center;
+  color:rgb(11, 95, 185);
+  border-top: 3px rgb(11, 95, 185) solid ;
+
+ 
+}
+.student_iicon{
+  
+    width:80px;
+    
+}
+.student1{
+    align-items:center;
+    width: 200px;
+    font-size: 20px;
+}
+.par_img{
+    
+    width:80px;
+}
+.parent{
+display: flex;
+ height:95px;
+  width: 275px;
+  background-color: white;
+  padding: 25px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  align-content:center;
+  color:green;
+  border-top: 3px green solid;
+  
+  
+}
+.parent1{
+   align-items:center;
+    width: 200px;
+    font-size: 20px;
+    
+    
+
+}
+.employee{
+  display: flex;
+ height:95px;
+  width: 275px;
+  background-color: white;
+  padding: 25px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  align-content:center;
+  color: rgb(212, 175, 55);
+  border-top: 3px rgb(212, 175, 55) solid ;
+  
+}
+.employee1{
+   align-items:center;
+    width: 200px;
+    font-size: 20px;
+}
+.emp_icon{
+width:80px;
+}
+.alumni{
+  display: flex;
+  height:95px;
+  width: 275px;
+  background-color: white;
+  padding: 25px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  align-content:center;
+  color: rgb(0, 229, 255);
+  border-top: 3px rgb(0,229,255)solid ;
+  
+}
+.alumni1{
+   align-items:center;
+    width: 200px;
+    font-size: 30px;
+}
+.alum_img{
+  width:80px;
+}
+.spotlight{
+  padding:20px;
+  margin-top: 10px;
+  margin-left:33px;
+  border-radius:8px;
+  font-size:10px;
+  width:590px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  line-height:27px;
+  border-top:3px rgb(110, 26, 26)solid;
+  
+}
+.text{
+
+  list-style-type: square;
+  margin-left:10px;
+  text-decoration: underline;
+  font-weight: 550;
+}
+.spot{
+  color:rgb(134, 14, 14);
+  font-weight: bold;
+  font-size:20px;
+}
+.but{
+  cursor: pointer;
+}
